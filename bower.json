@@ -1,0 +1,12 @@
+{
+  "name": "Archetype-c-spacers",
+  "version": "0.1.0",
+  "author": "Sam Ashley",
+  "main": "_c-spacers",
+  "ignore": [
+    ".*",
+    "CHANGELOG.md",
+    "package.json",
+    "/test"
+  ]
+}

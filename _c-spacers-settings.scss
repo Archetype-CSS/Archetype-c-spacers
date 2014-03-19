@@ -1,0 +1,31 @@
+/*** @export "structure-units" css */
+/**
+ * Structure Units
+ * 
+ */
+
+
+/**
+ * Spacers
+ */
+$spacer-unit:                             $base-font-size !global;
+
+$spacer-unit--half:                       $spacer-unit / 2 !global;
+$spacer-unit--third:                      $spacer-unit / 3 !global;
+$spacer-unit--quarter:                    $spacer-unit / 4 !global;
+$spacer-unit--double:                     $spacer-unit * 2 !global;
+$spacer-unit--media:                      $spacer-unit--half !global;
+
+
+$vert-margined:                             $spacer-unit !global;
+$vert-padded:                               $spacer-unit !global;
+$top-margined:                              $spacer-unit !global;
+$top-padded:                                $spacer-unit !global;
+$bottom-margined:                           $spacer-unit !global;
+$bottom-padded:                             $spacer-unit !global;
+$margined-container:                        $spacer-unit !global;
+$padded-container:                          $spacer-unit !global;
+$extra-padded-container:                    $spacer-unit--double !global;
+$full-bleed:                                $spacer-unit * -1 !global;
+$extra-full-bleed:                          $spacer-unit * -2 !global;
+
