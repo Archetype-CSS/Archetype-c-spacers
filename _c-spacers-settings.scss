@@ -2,7 +2,7 @@
  * Archetype-c-spacers Settings
  * 
  */
-$spacerUnit: 16px !global;
+$spacerUnit: convert-to-em(16px) !global;
 
 /**
  * Spacer Units
