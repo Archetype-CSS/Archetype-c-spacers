@@ -2,6 +2,14 @@
  * Test: Archetype/u-text.scss
  *
  */
+
+
+/**
+ * test dependencies
+ */
+$base-font-size: 16px;
+@import '../../bower_components/Archetype-u-units/_u-units';
+
 @import '../../_c-spacers';
 
 /**

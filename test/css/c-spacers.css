@@ -3,6 +3,48 @@
  *
  */
 /**
+ * test dependencies
+ */
+/*** @export "u-units" css */
+/**
+ * Archetype u-units
+ * 
+ */
+/**
+ * Percentage 
+ * 
+ * calculate a percentage based on values independant of layout
+ */
+/**
+ * Ems
+ * 
+ * calculate an em value based on values independant of layout
+ */
+/**
+ * Convert to Ems
+ * 
+ * convert given value to em units
+ */
+/**
+ * Archetype-u-units
+ * 
+ */
+/**
+ * Percentage 
+ * 
+ * calculate a percentage based on values independant of grid
+ */
+/**
+ * Ems
+ * 
+ * calculate an em value based on values independant of grid
+ */
+/**
+ * Convert to Ems
+ * 
+ * convert given value to em units
+ */
+/**
  * Archetype-c-spacers
  * 
  * Add margins, paddings, and unpaddings using consistient spacing units derived from the 
@@ -40,8 +82,8 @@
  */
 /* line 14, ../../_c-spacers.scss */
 .test__c-spacers--vertMargined {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 /**
@@ -51,8 +93,8 @@
  */
 /* line 24, ../../_c-spacers.scss */
 .test__c-spacers--vertPadded {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 /**
@@ -62,7 +104,7 @@
  */
 /* line 34, ../../_c-spacers.scss */
 .test__c-spacers--topMargined {
-  margin-top: 16px;
+  margin-top: 1em;
 }
 
 /**
@@ -72,7 +114,7 @@
  */
 /* line 43, ../../_c-spacers.scss */
 .test__c-spacers--topPadded {
-  padding-top: 16px;
+  padding-top: 1em;
 }
 
 /**
@@ -82,7 +124,7 @@
  */
 /* line 52, ../../_c-spacers.scss */
 .test__c-spacers--bottomMargined {
-  bottom-margin: 16px;
+  bottom-margin: 1em;
 }
 
 /**
@@ -92,7 +134,7 @@
  */
 /* line 61, ../../_c-spacers.scss */
 .test__c-spacers--bottomPadded {
-  bottom-padding: 16px;
+  bottom-padding: 1em;
 }
 
 /**
@@ -105,8 +147,8 @@
  */
 /* line 74, ../../_c-spacers.scss */
 .test__c-spacers--marginedContainer {
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 /**
@@ -121,8 +163,8 @@
  */
 /* line 94, ../../_c-spacers.scss */
 .test__c-spacers--extraPaddedContainer {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 /**
@@ -144,8 +186,8 @@
  */
 /* line 132, ../../_c-spacers.scss */
 .test__c-spacers--bleedContainer {
-  padding-left: -16px;
-  padding-right: -16px;
+  padding-left: -1em;
+  padding-right: -1em;
 }
 
 /**
@@ -153,8 +195,8 @@
  */
 /* line 140, ../../_c-spacers.scss */
 .test__c-spacers--extraBleedContainer {
-  padding-left: -16px;
-  padding-right: -16px;
+  padding-left: -1em;
+  padding-right: -1em;
 }
 
 /**
