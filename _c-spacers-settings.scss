@@ -1,36 +1,59 @@
-/*** @export "structure-units" css */
 /**
- * Structure Units
+ * Archetype-c-spacers Settings
  * 
  */
-$spacerUnit:                              16px !default;
+$spacerUnit: 16px !global;
 
+/**
+ * Spacer Units
+ *
+ * apply consistient box model spacing
+ */
 $spacerUnits: (
+  full: $spacerUnit, 
   half: $spacerUnit / 2,
   third: $spacerUnit / 3,
   quarter: $spacerUnit / 4,
-  double: $spacerUnit * 2,
-  fullBleed: $spacerUnit * -1,
-  extraFullBleed: $spacerUnit * -2,
+  double: $spacerUnit * 2
 );
 
 /**
- * Spacers
+ * Margin Units
+ *
+ * derived from $spacerUnits map
  */
-$spacerUnit--half:                       map-get($spacerUnits, half) !default;
-$spacerUnit--third:                      map-get($spacerUnits, third) !default;
-$spacerUnit--quarter:                    map-get($spacerUnits, quarter) !default;
-$spacerUnit--double:                     map-get($spacerUnits, double) !default;
-$fullBleed:                              map-get($spacerUnits, fullBleed) !default;
-$extraFullBleed:                         map-get($spacerUnits, extraFullBleed) !default;
+$marginUnits: (
+  vert: map-get($spacerUnits, full),
+  top: map-get($spacerUnits, full),
+  bottom: map-get($spacerUnits, full),
+  marginedContainer: map-get($spacerUnits, full),
+  extraMarginedContainer: map-get($spacerUnits, full)
+);
 
-$vert-margined:                           $spacerUnit !default;
-$vert-padded:                             $spacerUnit !default;
-$top-margined:                            $spacerUnit !default;
-$top-padded:                              $spacerUnit !default;
-$bottom-margined:                         $spacerUnit !default;
-$bottom-padded:                           $spacerUnit !default;
-$margined-container:                      $spacerUnit !default;
-$padded-container:                        $spacerUnit !default;
-$extra-padded-container:                  $spacerUnit--double !default;
+/**
+ * Padding Units
+ *
+ * derived from $spacerUnits map
+ */
+$paddingUnits: (
+  vert: map-get($spacerUnits, full),
+  top: map-get($spacerUnits, full),
+  bottom: map-get($spacerUnits, full),
+  fullPaddedContainer: map-get($spacerUnits, full),
+  extraPaddedContainer: map-get($spacerUnits, full)
+);
+
+/**
+ * Spacer Bleeds
+ *
+ * allow child elements to bleed to parent container 
+ * derived from $spacerUnits map
+ */
+$spacerBleeds: (
+  vert: map-get($marginUnits, vert) * -1,
+  top: map-get($marginUnits, top) * -1,
+  bottom: map-get($marginUnits, bottom) * -1,
+  bleed: map-get($marginUnits, marginedContainer) * -1,
+  extraBleed: map-get($marginUnits, extraMarginedContainer) * -1
+);
 

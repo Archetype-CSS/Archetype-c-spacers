@@ -1,0 +1,217 @@
+/**
+ * Test: Archetype/u-text.scss
+ *
+ */
+/**
+ * Archetype-c-spacers
+ * 
+ * Add margins, paddings, and unpaddings using consistient spacing units derived from the 
+ * vertical rhythm, the grid, or the modular scale
+ */
+/**
+ * Archetype-c-spacers Settings
+ * 
+ */
+/**
+ * Spacer Units
+ *
+ * apply consistient box model spacing
+ */
+/**
+ * Margin Units
+ *
+ * derived from $spacerUnits map
+ */
+/**
+ * Padding Units
+ *
+ * derived from $spacerUnits map
+ */
+/**
+ * Spacer Bleeds
+ *
+ * allow child elements to bleed to parent container 
+ * derived from $spacerUnits map
+ */
+/**
+ * Vertically Separated
+ *
+ * Adds top and bottom margins to container
+ */
+/* line 14, ../../_c-spacers.scss */
+.test__c-spacers--vertMargined {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/**
+ * Vertically Padded
+ * 
+ * Adds top and bottom padding to container
+ */
+/* line 24, ../../_c-spacers.scss */
+.test__c-spacers--vertPadded {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/**
+ * Top margined
+ * 
+ * Adds top margin to container
+ */
+/* line 34, ../../_c-spacers.scss */
+.test__c-spacers--topMargined {
+  margin-top: 16px;
+}
+
+/**
+ * Top Padded
+ * 
+ * Adds top padding to container
+ */
+/* line 43, ../../_c-spacers.scss */
+.test__c-spacers--topPadded {
+  padding-top: 16px;
+}
+
+/**
+ * Bottom margined
+ * 
+ * Adds bottom margin to container
+ */
+/* line 52, ../../_c-spacers.scss */
+.test__c-spacers--bottomMargined {
+  bottom-margin: 16px;
+}
+
+/**
+ * Bottom Padded
+ * 
+ * Adds bottom padding to container
+ */
+/* line 61, ../../_c-spacers.scss */
+.test__c-spacers--bottomPadded {
+  bottom-padding: 16px;
+}
+
+/**
+ * Side Spacers
+ */
+/**
+ * Margined Container
+ * 
+ * Adds standard padding unit as side margins
+ */
+/* line 74, ../../_c-spacers.scss */
+.test__c-spacers--marginedContainer {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+/**
+ * Padded Container
+ * 
+ * Adds standard padding unit as side padding
+ */
+/**
+ * Extra Padded Container
+ * 
+ * Adds an extra padding unit as side padding
+ */
+/* line 94, ../../_c-spacers.scss */
+.test__c-spacers--extraPaddedContainer {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/**
+ * Unpadded Container
+ * 
+ * Allows a container to bleed to the border of its parent
+ */
+/**
+ * Full Bleed
+ */
+/**
+ * Half Bleed
+ */
+/**
+ * Third Bleed
+ */
+/**
+ * Bleed Container
+ */
+/* line 132, ../../_c-spacers.scss */
+.test__c-spacers--bleedContainer {
+  padding-left: -16px;
+  padding-right: -16px;
+}
+
+/**
+ * Extra Bleed Container
+ */
+/* line 140, ../../_c-spacers.scss */
+.test__c-spacers--extraBleedContainer {
+  padding-left: -16px;
+  padding-right: -16px;
+}
+
+/**
+ * Vertically Separated
+ *
+ * Adds top and bottom margins to container
+ */
+/**
+ * Vertically Padded
+ * 
+ * Adds top and bottom padding to container
+ */
+/**
+ * Top margined
+ * 
+ * Adds top margin to container
+ */
+/**
+ * Top Padded
+ * 
+ * Adds top padding to container
+ */
+/**
+ * Bottom margined
+ * 
+ * Adds bottom margin to container
+ */
+/**
+ * Bottom Padded
+ * 
+ * Adds bottom padding to container
+ */
+/**
+ * Side Spacers
+ */
+/**
+ * Margined Container
+ * 
+ * Adds standard padding unit as side margins
+ */
+/**
+ * Padded Container
+ * 
+ * Adds standard padding unit as side padding
+ */
+/**
+ * Extra Padded Container
+ * 
+ * Adds an extra padding unit as side padding
+ */
+/**
+ * Unpadded Container
+ * 
+ * Allows a container to bleed to the border of its parent
+ */
+/**
+ * Extra Unpadded container
+ * 
+ * Allows an container to reach the border of an extra padded container
+ */

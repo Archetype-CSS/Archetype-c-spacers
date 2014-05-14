@@ -1,20 +1,19 @@
-/*** @export "spacers" css */
 /**
- * Spacers
+ * Archetype-c-spacers
  * 
  * Add margins, paddings, and unpaddings using consistient spacing units derived from the 
  * vertical rhythm, the grid, or the modular scale
  */
-
+@import '_c-spacers-settings';
 
 /**
  * Vertically Separated
  *
  * Adds top and bottom margins to container
  */
-%vert-margined {
-  margin-top: $vert-margined;
-  margin-bottom: $vert-margined;
+%vertMargined {
+  margin-top: map-get($spacerUnits, full);
+  margin-bottom: map-get($spacerUnits, full);
 }
 
 /**
@@ -22,9 +21,9 @@
  * 
  * Adds top and bottom padding to container
  */
-%vert-padded {
-  padding-top: $vert-padded;
-  padding-bottom: $vert-padded;
+%vertPadded {
+  padding-top: map-get($spacerUnits, full);
+  padding-bottom: map-get($spacerUnits, full);
 }
 
 /**
@@ -32,8 +31,8 @@
  * 
  * Adds top margin to container
  */
-%top-margined {
-  margin-top: $top-margined;
+%topMargined {
+  margin-top: map-get($spacerUnits, full);
 }
 
 /**
@@ -41,8 +40,8 @@
  * 
  * Adds top padding to container
  */
-%top-padded {
-  padding-top: $top-padded;
+%topPadded {
+  padding-top: map-get($spacerUnits, full);
 }
 
 /**
@@ -50,8 +49,8 @@
  * 
  * Adds bottom margin to container
  */
-%bottom-margined {
-  bottom-margin: $bottom-margined;
+%bottomMargined {
+  bottom-margin: map-get($spacerUnits, full);
 }
 
 /**
@@ -59,9 +58,10 @@
  * 
  * Adds bottom padding to container
  */
-%bottom-padded {
-  bottom-padding: $bottom-padded;
+%bottomPadded {
+  bottom-padding: map-get($spacerUnits, full);
 }
+
 /**
  * Side Spacers
  */
@@ -71,9 +71,9 @@
  * 
  * Adds standard padding unit as side margins
  */
-%margined-container {
-  margin-left: $margined-container;
-  margin-right: $margined-container;
+%marginedContainer {
+  margin-left: map-get($marginUnits, marginedContainer);
+  margin-right: map-get($marginUnits, marginedContainer);
 }
 
 /**
@@ -81,9 +81,9 @@
  * 
  * Adds standard padding unit as side padding
  */
-%padded-container {
-  padding-left: $padded-container;
-  padding-right: $padded-container;
+%paddedContainer {
+  padding-left: map-get($paddingUnits, paddedContainer);
+  padding-right: map-get($paddingUnits, paddedContainer);
 }
 
 /**
@@ -91,28 +91,54 @@
  * 
  * Adds an extra padding unit as side padding
  */
-%extra-padded-container {
-  padding-left: $extra-padded-container;
-  padding-right: $extra-padded-container;
+%extraPaddedContainer {
+  padding-left: map-get($paddingUnits, extraPaddedContainer);
+  padding-right: map-get($paddingUnits, extraPaddedContainer);
 }
 
 /**
- * Unpadded container
+ * Unpadded Container
  * 
- * Allows an container to reach the border of a padded container
+ * Allows a container to bleed to the border of its parent
  */
-%full-bleed {
-  padding-left: $full-bleed;
-  padding-right: $full-bleed;
+
+/**
+ * Full Bleed
+ */
+%vertBleed {
+  padding-left: map-get($spacerBleeds, full);
+  padding-right: map-get($spacerBleeds, full);
 }
 
 /**
- * Extra Unpadded container
- * 
- * Allows an container to reach the border of an extra padded container
+ * Half Bleed
  */
-%extra-full-bleed {
-  padding-left: $extra-full-bleed;
-  padding-right: $extra-full-bleed;
+%topBleed {
+  padding-left: map-get($spacerBleeds, half);
+  padding-right: map-get($spacerBleeds, half);
+}
+
+/**
+ * Third Bleed
+ */
+%bottomBleed {
+  padding-left: map-get($spacerBleeds, third);
+  padding-right: map-get($spacerBleeds, third);
+}
+
+/**
+ * Bleed Container
+ */
+%bleedContainer {
+  padding-left: map-get($spacerBleeds, bleed);
+  padding-right: map-get($spacerBleeds, bleed);
+}
+
+/**
+ * Extra Bleed Container
+ */
+%extraBleedContainer {
+  padding-left: map-get($spacerBleeds, extraBleed);
+  padding-right: map-get($spacerBleeds, extraBleed);
 }
 

@@ -1,0 +1,110 @@
+/**
+ * Test: Archetype/u-text.scss
+ *
+ */
+@import '../../_c-spacers';
+
+/**
+ * Vertically Separated
+ *
+ * Adds top and bottom margins to container
+ */
+.test__c-spacers--vertMargined {
+  @extend %vertMargined;
+}
+
+/**
+ * Vertically Padded
+ * 
+ * Adds top and bottom padding to container
+ */
+.test__c-spacers--vertPadded {
+  @extend %vertPadded;
+}
+
+/**
+ * Top margined
+ * 
+ * Adds top margin to container
+ */
+.test__c-spacers--topMargined {
+  @extend %topMargined;
+}
+
+/**
+ * Top Padded
+ * 
+ * Adds top padding to container
+ */
+.test__c-spacers--topPadded {
+  @extend %topPadded;
+}
+
+/**
+ * Bottom margined
+ * 
+ * Adds bottom margin to container
+ */
+.test__c-spacers--bottomMargined {
+  @extend %bottomMargined;
+}
+
+/**
+ * Bottom Padded
+ * 
+ * Adds bottom padding to container
+ */
+.test__c-spacers--bottomPadded {
+  @extend %bottomPadded;
+}
+
+/**
+ * Side Spacers
+ */
+
+/**
+ * Margined Container
+ * 
+ * Adds standard padding unit as side margins
+ */
+.test__c-spacers--marginedContainer {
+  @extend %marginedContainer;
+}
+
+/**
+ * Padded Container
+ * 
+ * Adds standard padding unit as side padding
+ */
+.test__c-spacers--paddedContainer {
+  //@extend %paddedContainer;
+}
+
+/**
+ * Extra Padded Container
+ * 
+ * Adds an extra padding unit as side padding
+ */
+.test__c-spacers--extraPaddedContainer {
+  @extend %extraPaddedContainer;
+}
+
+/**
+ * Unpadded Container
+ * 
+ * Allows a container to bleed to the border of its parent
+ */
+
+.test__c-spacers--bleedContainer {
+  @extend %bleedContainer;
+}
+
+/**
+ * Extra Unpadded container
+ * 
+ * Allows an container to reach the border of an extra padded container
+ */
+.test__c-spacers--extraBleedContainer {
+  @extend %extraBleedContainer;
+}
+
