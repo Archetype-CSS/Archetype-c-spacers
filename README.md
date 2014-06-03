@@ -7,6 +7,8 @@ system wide.
   * [Bower](http://bower.io): `bower install Archetype-c-spacers`
   * Git: `git clone https://github.com/Archetype-CSS/Archetype-test.git`
 
+Then, import the partial in your main project Sass file `@import 'Archetype-c-spacers';`
+
 ## Use
   * `@extend %vertMargined;` - Vertically Separated - Adds top and bottom margins to container
   * `@extend %vertPadded;` - Vertically Padded - Adds top and bottom padding to container
@@ -29,8 +31,8 @@ system wide.
 ## Run the Test Locally
 
 ```bash
-git clone https://github.com/Archetype-CSS/c-spacers.git
-cd c-spacers
+git clone https://github.com/Archetype-CSS/Archetype-c-spacers.git
+cd Archetype-c-spacers
 npm install
 grunt
 ```
