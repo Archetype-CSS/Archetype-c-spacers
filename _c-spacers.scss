@@ -97,27 +97,33 @@
 }
 
 /**
- * Full Bleed
+ * Unpadded Container
+ * 
+ * Allows a container to bleed to the border of its parent
  */
-%fullBleed {
-  padding-left: map-get($spacerBleeds, full);
-  padding-right: map-get($spacerBleeds, full);
+
+/**
+ * Vertical Bleed
+ */
+%vertBleed {
+  padding-left: map-get($spacerBleeds, vert);
+  padding-right: map-get($spacerBleeds, vert);
 }
 
 /**
- * Half Bleed
+ * Top Bleed
  */
-%halfBleed {
-  padding-left: map-get($spacerBleeds, half);
-  padding-right: map-get($spacerBleeds, half);
+%topBleed {
+  padding-left: map-get($spacerBleeds, top);
+  padding-right: map-get($spacerBleeds, top);
 }
 
 /**
- * Third Bleed
+ * Bottom Bleed
  */
-%thirdBleed {
-  padding-left: map-get($spacerBleeds, third);
-  padding-right: map-get($spacerBleeds, third);
+%bottomBleed {
+  padding-left: map-get($spacerBleeds, bottom);
+  padding-right: map-get($spacerBleeds, bottom);
 }
 
 /**
@@ -130,6 +136,8 @@
 
 /**
  * Extra Bleed Container
+ *
+ *
  */
 %extraBleedContainer {
   padding-left: map-get($spacerBleeds, extraBleed);
