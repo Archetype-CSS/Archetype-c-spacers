@@ -50,7 +50,7 @@
  * Adds bottom margin to container
  */
 %bottomMargined {
-  bottom-margin: map-get($spacerUnits, full);
+  margin-bottom: map-get($spacerUnits, full);
 }
 
 /**
@@ -59,7 +59,7 @@
  * Adds bottom padding to container
  */
 %bottomPadded {
-  bottom-padding: map-get($spacerUnits, full);
+  padding-bottom: map-get($spacerUnits, full);
 }
 
 /**
