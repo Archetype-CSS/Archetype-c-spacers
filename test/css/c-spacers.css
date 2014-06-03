@@ -124,7 +124,7 @@
  */
 /* line 52, ../../_c-spacers.scss */
 .test__c-spacers--bottomMargined {
-  bottom-margin: 1em;
+  margin-bottom: 1em;
 }
 
 /**
@@ -134,7 +134,7 @@
  */
 /* line 61, ../../_c-spacers.scss */
 .test__c-spacers--bottomPadded {
-  bottom-padding: 1em;
+  padding-bottom: 1em;
 }
 
 /**
