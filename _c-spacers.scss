@@ -99,7 +99,7 @@
 /**
  * Full Bleed
  */
-%vertBleed {
+%fullBleed {
   padding-left: map-get($spacerBleeds, full);
   padding-right: map-get($spacerBleeds, full);
 }
@@ -107,7 +107,7 @@
 /**
  * Half Bleed
  */
-%topBleed {
+%halfBleed {
   padding-left: map-get($spacerBleeds, half);
   padding-right: map-get($spacerBleeds, half);
 }
@@ -115,7 +115,7 @@
 /**
  * Third Bleed
  */
-%bottomBleed {
+%thirdBleed {
   padding-left: map-get($spacerBleeds, third);
   padding-right: map-get($spacerBleeds, third);
 }
