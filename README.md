@@ -1,7 +1,6 @@
-# Archetype-c-spacers[![Build Status](https://secure.travis-ci.org/Archetype-CSS/Archetype-c-spacers.png?branch=master)](http://travis-ci.org/Archetype-CSS/Archetype-c-spacers) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+# Archetype-c-spacers[![Build Status](https://secure.travis-ci.org/Archetype-CSS/Archetype-c-spacers.png?branch=master)](http://travis-ci.org/Archetype-CSS/Archetype-c-spacers) [![Dependency Status](https://gemnasium.com/Archetype-CSS/Archetype-c-spacers.svg)](https://gemnasium.com/Archetype-CSS/Archetype-c-spacers) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
-Archetype spacer components for applying uniform paddings and margins
-system wide.
+Archetype spacer components for applying uniform paddings and margins system wide.
 
 ## Installation
   * [Bower](http://bower.io): `bower install Archetype-c-spacers`
