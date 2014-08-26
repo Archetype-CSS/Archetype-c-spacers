@@ -45,12 +45,6 @@
  * convert given value to em units
  */
 /**
- * Archetype-c-spacers
- * 
- * Add margins, paddings, and unpaddings using consistient spacing units derived from the 
- * vertical rhythm, the grid, or the modular scale
- */
-/**
  * Archetype-c-spacers Settings
  * 
  */
@@ -76,11 +70,17 @@
  * derived from $spacerUnits map
  */
 /**
+ * Archetype-c-spacers
+ * 
+ * Add margins, paddings, and unpaddings using consistient spacing units derived from the 
+ * vertical rhythm, the grid, or the modular scale
+ */
+/**
  * Vertically Separated
  *
  * Adds top and bottom margins to container
  */
-/* line 14, ../../_c-spacers.scss */
+/* line 13, ../../_c-spacers.scss */
 .test__c-spacers--vertMargined {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -91,7 +91,7 @@
  * 
  * Adds top and bottom padding to container
  */
-/* line 24, ../../_c-spacers.scss */
+/* line 23, ../../_c-spacers.scss */
 .test__c-spacers--vertPadded {
   padding-top: 1em;
   padding-bottom: 1em;
@@ -102,7 +102,7 @@
  * 
  * Adds top margin to container
  */
-/* line 34, ../../_c-spacers.scss */
+/* line 33, ../../_c-spacers.scss */
 .test__c-spacers--topMargined {
   margin-top: 1em;
 }
@@ -112,7 +112,7 @@
  * 
  * Adds top padding to container
  */
-/* line 43, ../../_c-spacers.scss */
+/* line 42, ../../_c-spacers.scss */
 .test__c-spacers--topPadded {
   padding-top: 1em;
 }
@@ -122,7 +122,7 @@
  * 
  * Adds bottom margin to container
  */
-/* line 52, ../../_c-spacers.scss */
+/* line 51, ../../_c-spacers.scss */
 .test__c-spacers--bottomMargined {
   margin-bottom: 1em;
 }
@@ -132,7 +132,7 @@
  * 
  * Adds bottom padding to container
  */
-/* line 61, ../../_c-spacers.scss */
+/* line 60, ../../_c-spacers.scss */
 .test__c-spacers--bottomPadded {
   padding-bottom: 1em;
 }
@@ -145,7 +145,7 @@
  * 
  * Adds standard padding unit as side margins
  */
-/* line 74, ../../_c-spacers.scss */
+/* line 73, ../../_c-spacers.scss */
 .test__c-spacers--marginedContainer {
   margin-left: 1em;
   margin-right: 1em;
@@ -161,7 +161,7 @@
  * 
  * Adds an extra padding unit as side padding
  */
-/* line 94, ../../_c-spacers.scss */
+/* line 93, ../../_c-spacers.scss */
 .test__c-spacers--extraPaddedContainer {
   padding-left: 1em;
   padding-right: 1em;
@@ -184,7 +184,7 @@
 /**
  * Bleed Container
  */
-/* line 132, ../../_c-spacers.scss */
+/* line 131, ../../_c-spacers.scss */
 .test__c-spacers--bleedContainer {
   padding-left: -1em;
   padding-right: -1em;
@@ -195,7 +195,7 @@
  *
  *
  */
-/* line 142, ../../_c-spacers.scss */
+/* line 141, ../../_c-spacers.scss */
 .test__c-spacers--extraBleedContainer {
   padding-left: -1em;
   padding-right: -1em;
