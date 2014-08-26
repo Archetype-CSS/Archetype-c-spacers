@@ -4,7 +4,7 @@ Archetype spacer components for applying uniform paddings and margins system wid
 
 ## Installation
   * [Bower](http://bower.io): `bower install Archetype-c-spacers`
-  * Git: `git clone https://github.com/Archetype-CSS/Archetype-test.git`
+  * Git: `git clone https://github.com/Archetype-CSS/Archetype-c-spacers.git`
 
 Then, import the partial in your main project Sass file `@import 'Archetype-c-spacers';`
 
